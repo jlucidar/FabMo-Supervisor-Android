@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/Device_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/device_hostname"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:text="Device" />
+
+        <TextView
+            android:id="@+id/network_label"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/network" />
+
+        <TextView
+            android:id="@+id/network"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="127.0.0.1@lo0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Status_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/state"
+            android:layout_height="match_parent"
+        	android:layout_width="100dp"
+            android:text="Disconnected" />
+
+        <TextView
+            android:id="@+id/posx_label"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:text="X : " />
+
+        <TextView
+            android:id="@+id/posx"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="0.000" />
+
+        <TextView
+            android:id="@+id/posy_label"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:text="Y : " />
+
+        <TextView
+            android:id="@+id/posy"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="0.000" />
+
+        <TextView
+            android:id="@+id/posz_label"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:text="Z : " />
+
+        <TextView
+            android:id="@+id/posz"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="0.000" />
+    </LinearLayout>
+
+      <LinearLayout
+        android:id="@+id/File_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" />
+    
+</LinearLayout>

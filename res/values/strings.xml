@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FabMo Supervisor</string>
+    <string name="action_settings">Settings</string>
+    <string name="scan_button">Rescan</string>
+    <string name="network">network : </string>
+    <string name="current_file_label">current file : </string>
+
+</resources>
